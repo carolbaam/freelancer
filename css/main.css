@@ -85,16 +85,8 @@ header{
     width:70%;
 }
 
-.star-icon-one{
-   
-    width:15%;
-    margin: 0 auto;
-    padding-top: 2%;
-    
-    
-   
 
-}
+
 
 .words-under-star{
  
@@ -162,14 +154,17 @@ header{
      
 .div-section-three > .second-paragraph{
     display: inline-block;
-    bottom: 25px;
-
+    margin-top:0px;
+    padding-top: 0px;
+    height: 120px;
+   
 }
 
 .button-download{
     display: block;
     font-family: 'Lato', sans-serif;
-    outline: solid white 2px;
+    border: solid white 2px;
+    border-radius: 5%;
     width: 170px;
     text-align: center;
     padding: 10px;
@@ -180,30 +175,67 @@ header{
 
 /*SECTION FOUR*/
 
+
+.section-four{
+
+    width:100%;
+    height: 600px;
+
+}
 .div-section-four{
-    text-align: center;
-    padding-bottom: 
+    
+    display: inline-block;
+    height: 400px;
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 400px;
+     
 }
 .div-section-four>h1{
    font-family:  'Montserrat', sans-serif;
-   font-weight:bolder;
+   font-weight:bold 800;
    font-size: 30px;
+   text-align: center;
 
 }
 
-.form{
-    text-align: left;
+.star-icon-four{
+   
+    width: 30%;
+   margin:auto;
 }
+
+
 input[type=text]{
     border:none;
+    font-size: 15px;
+    
 
 }
 
-.div-section-four>hr{
+form >hr{
 
-     width: 10px;
+     width: 500px;
      margin: 0 auto;
     
+}
+
+form{
+    line-height: 50px;
+}
+
+form #message{
+    padding-bottom: 70px;
+    width: 100%;
+
+}
+
+.submit{
+    background: #00bc9d;
+    color: white;
+    width:50px;
+    height: 30px;;
 }
 
 
@@ -238,7 +270,7 @@ footer{
     padding-left: 170px;
     margin-top:20px;
     padding-bottom: 13px;
-    bottom: 90px;
+    bottom: 125px;
 
 }
    
@@ -246,7 +278,7 @@ footer{
     margin-right: 0px;
     margin-top: 0px;
     position: relative;
-    bottom:70px;
+    bottom:110px;
 
 }
 
@@ -258,6 +290,12 @@ footer{
     
 
 }
+.around>i{
+
+    border:white 1px solid; 
+    border-radius: 50%;
+    padding: 10px;
+}
 
 .location>p{
 
@@ -266,4 +304,34 @@ footer{
 
 .about>p{
     font-size: 12px;
+}
+
+
+
+
+hr.star-light:after {
+    color:white;
+    background-color: #18bc9c;
+    border-color: white;
+    z-index: -1;
+     
+    
+}
+hr.star-light:after, hr.star-primary:after {
+    font-family: 'FontAwesome';
+    font-size: 2em;
+    top: -.5em;
+    display: inline-block;
+    padding: 10px 20px;
+    content: '\f005';
+    z-index: 0;
+}
+hr.star-light, hr.star-primary {
+    max-width: 250px;
+    margin: 50px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px;
+   
 }
