@@ -12,7 +12,7 @@ body{
 /*HEADER*/
 header{
     width: 100%;
-    height: 12%;
+    height: 104px;
     background: #2a3e4f;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -25,8 +25,8 @@ header{
     float:left;
     margin:3%;
     font-weight: bold;
-    padding-left: 110px;
-    font-size: 20px;
+    padding-left: 40px;
+    font-size: 32px;
     
     
 }
@@ -36,18 +36,18 @@ header{
 .float-rigth-portfolio{
    
     float: right;
-    padding-top: 32px;
-    padding-right: -10px;
-    font-size: 12px;
+    padding-top: 28px;
+    padding-left: 5px;
+    font-size: 16px;
     font-weight: bold;
-   margin:5px;
+    margin:18px;
     
     
    
 }
 
 .float-rigth-contact{
-    margin-right: 15%;
+    margin-right: 100px;
 }
 /* SECTION ONE*/
 
@@ -71,6 +71,7 @@ header{
 
 .div-section-one>img{
     padding-bottom: 15px;
+    height: 257px;
 }
 
 
@@ -79,10 +80,10 @@ header{
     
     color: white;
     font-family:'Montserrat', sans-serif;
-    font-weight: bold ;
-    font-size: 50px;
+    font-weight: bolder ;
+    font-size: 76px;
     margin: 0 auto;
-    width:70%;
+    width:100%;
 }
 
 
@@ -95,7 +96,7 @@ header{
   width: 70%;
   padding: 0px;
   display: inline-block;
-  font-size: 19px;
+  font-size: 28px;
   font-weight: lighter;
   
 }
@@ -110,9 +111,10 @@ header{
 
 .div-section-tow>h1{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: bold 800;
+    font-size: 48px;
     padding-top: 40px;
+    color: #2a3e4f;
 }
 
 .star-icon-tow{
@@ -139,7 +141,7 @@ header{
 }
 .div-section-three>h1{
     padding-top: 70px;
-    font-size: 30px;
+    font-size: 48px;
 }
 
 .div-section-three>p{
@@ -150,14 +152,18 @@ header{
     padding: 20px;
     line-height: 23px;
     padding-bottom: 40px;
+    font-size: 20px;
+    line-height: 30px;
 }
      
 .div-section-three > .second-paragraph{
     
-    margin-top:0px;
-    padding-top: 0px;
+   
     height: 120px;
     display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    
    
 }
 
@@ -166,10 +172,11 @@ header{
     font-family: 'Lato', sans-serif;
     border: solid white 2px;
     border-radius: 5%;
-    width: 170px;
+    width: 190px;
     text-align: center;
     padding: 10px;
     margin: 0 auto;
+    font-size: 20px;
     
 }
 
@@ -180,54 +187,61 @@ header{
 .section-four{
 
     width:100%;
-    height: 600px;
+    height: 963px;
 
 }
 .div-section-four{
     
     display: inline-block;
-    height: 400px;
-    width: 500px;
+    height: 800px;
+    width: 80%;
     padding-top: 30px;
     padding-bottom: 50px;
-    padding-left: 400px;
+    padding-left: 110px;
      
 }
 .div-section-four>h1{
    font-family:  'Montserrat', sans-serif;
    font-weight:bold 800;
-   font-size: 30px;
+   font-size: 48px;
    text-align: center;
+   color: #2a3e4f;
+   padding-left: 10px;
 
 }
 
-.star-icon-four{
+.star-primary-contact{
    
-    width: 30%;
-   margin:auto;
+  
+   padding-left: 300px;
 }
 
 
 input[type=text]{
     border:none;
-    font-size: 15px;
+    font-size: 24px;
+    font-family:  'Lato', sans-serif;
+    line-height: 24px;
     
-
 }
 
 form >hr{
 
-     width: 500px;
+     width: 700px;
      margin: 0 auto;
-    
+     padding-left: -10px;
+     display: inline-block;
+     
 }
 
 form{
     line-height: 50px;
+    padding-left:190px;
+    color: #858e95;
 }
 
 form #message{
-    padding-bottom: 70px;
+    padding-bottom: 90px;
     width: 100%;
 
 }
@@ -235,8 +249,12 @@ form #message{
 .submit{
     background: #00bc9d;
     color: white;
-    width:50px;
-    height: 30px;;
+    width:101px;
+    height: 65px;
+    font-size: 20px;
+    display: block;
+    
+    
 }
 
 
@@ -254,46 +272,54 @@ footer{
     text-align: center;
     width: 90%;
     height: 90%;
-    padding-right: 40px;
+    margin-left:75px;
 }
 
 .location,
 .around,
 .about{
    display: inline-block;
-   margin: 50px;
+   
    text-align: center;
  
 
 }
 .location{
     position: relative;
-    padding-left: 170px;
-    margin-top:20px;
+    padding-left: 0px;
+    top:30px;
     padding-bottom: 13px;
     bottom: 110px;
+    margin-right: 100px;
 
+}
+
+.around{
+    position: relative;
+    padding-left: 0px;
+    top:11px; 
+    margin-right: 80px;
 }
    
 .about{
     margin-right: 0px;
     margin-top: 0px;
     position: relative;
-    bottom:95px;
+    bottom:-53px;
 
 }
 
 .around>p{
     
     padding-top: 75px;
-    font-size: 12px;
+    font-size: 20px;
     
     
 
 }
 .around>i{
 
-    border:white 1px solid; 
+    border:white 3px solid; 
     border-radius: 50%;
     padding: 10px;
     
@@ -301,11 +327,11 @@ footer{
 
 .location>p{
 
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .about>p{
-    font-size: 12px;
+    font-size: 20px;
 }
 
 
@@ -326,7 +352,7 @@ hr.star-light:after, hr.star-primary:after {
     display: inline-block;
     padding: 10px 20px;
     content: '\f005';
-    z-index: 0;
+    z-index: -1;
 }
 hr.star-light, hr.star-primary {
     max-width: 250px;
@@ -335,5 +361,12 @@ hr.star-light, hr.star-primary {
     text-align: center;
     border: none;
     border-top: solid 5px;
+    z-index: -1;
    
+}
+
+.copy{
+ background: #19252f;
+ width: 100%;
+
 }
