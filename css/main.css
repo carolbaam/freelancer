@@ -271,8 +271,8 @@ footer{
 .div-section-five{
     text-align: center;
     width: 90%;
-    height: 90%;
-    margin-left:75px;
+    height: 303px;
+    margin-left:100px;
 }
 
 .location,
@@ -313,6 +313,7 @@ footer{
     
     padding-top: 75px;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
     
     
 
@@ -328,10 +329,12 @@ footer{
 .location>p{
 
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 .about>p{
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -368,5 +371,10 @@ hr.star-light, hr.star-primary {
 .copy{
  background: #19252f;
  width: 100%;
+ height: 73px;
+ text-align: center;
+ padding-top: 40px;
+ margin: 0px;
+ font-size: 12px;
 
 }
