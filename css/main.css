@@ -153,10 +153,11 @@ header{
 }
      
 .div-section-three > .second-paragraph{
-    display: inline-block;
+    
     margin-top:0px;
     padding-top: 0px;
     height: 120px;
+    display: inline-block;
    
 }
 
@@ -270,7 +271,7 @@ footer{
     padding-left: 170px;
     margin-top:20px;
     padding-bottom: 13px;
-    bottom: 125px;
+    bottom: 110px;
 
 }
    
@@ -278,13 +279,13 @@ footer{
     margin-right: 0px;
     margin-top: 0px;
     position: relative;
-    bottom:110px;
+    bottom:95px;
 
 }
 
 .around>p{
     
-    padding-top: 38px;
+    padding-top: 75px;
     font-size: 12px;
     
     
@@ -295,6 +296,7 @@ footer{
     border:white 1px solid; 
     border-radius: 50%;
     padding: 10px;
+    
 }
 
 .location>p{
